@@ -1,4 +1,4 @@
-//operador ... rest(juntar)/spread(espalhar).
+//operador "..." rest(juntar)/spread(espalhar).
 
 //Usar spread com objeto.
 const funcionario = {nome: 'Maria', salario: 12358.69};
