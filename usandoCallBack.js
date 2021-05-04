@@ -22,10 +22,10 @@ getTurma('A', alunos => {
 
     getTurma('B', alunos => {
         nomes = nomes.concat(alunos.map(a => `B: ${a.nome}`));
-    });
 
-    getTurma('C', alunos => {
-        nomes = nomes.concat(alunos.map(a => `C: ${a.nome}`));
-        console.log(nomes);
+        getTurma('C', alunos => {
+            nomes = nomes.concat(alunos.map(a => `C: ${a.nome}`));
+            console.log(nomes);
+        });
     });
 });
